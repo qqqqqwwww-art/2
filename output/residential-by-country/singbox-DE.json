@@ -6,16 +6,17 @@
     {
       "type": "vless",
       "tag": "🇩🇪 德国 (Germany) 01 (家宽) - xiaohe",
-      "server": "188.130.207.30",
-      "server_port": 2053,
+      "server": "129.151.64.169",
+      "server_port": 31867,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
         "enabled": true,
         "server_name": "cdn8848.776676.xyz",
-        "insecure": true
+        "insecure": false
       },
       "transport": {
         "type": "ws",
+        "path": "/files",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }
