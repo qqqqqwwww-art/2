@@ -4,35 +4,27 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
-      "server": "525b1a38-tly2o0-tn5bnx-19xg1.nw4.hyhuawei.com",
-      "server_port": 443,
-      "password": "e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9",
-      "tls": {
-        "enabled": true,
-        "server_name": "525b1a38-tly2o0-tn5bnx-19xg1.nw4.hyhuawei.com",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
+      "server": "36.224.185.173",
+      "server_port": 50099,
+      "method": "chacha20-ietf-poly1305",
+      "password": "b1ae0fce-9340-4f2e-882d-fdb2218e2e2b"
     },
     {
       "type": "vless",
       "tag": "🇯🇵 日本 (Japan) 02 (家宽) - xiaohe",
-      "server": "210.152.85.154",
-      "server_port": 19364,
+      "server": "168.110.112.196",
+      "server_port": 8443,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
         "enabled": true,
         "server_name": "cdn8848.776676.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/collect/user/products?ed=2560",
+        "path": "/pay/music?ed=2560fp=chrome",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }
@@ -68,7 +60,8 @@
         "insecure": false
       },
       "transport": {
-        "type": "ws"
+        "type": "ws",
+        "path": "/"
       }
     },
     {
@@ -76,7 +69,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
         "🇯🇵 日本 (Japan) 02 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe"
@@ -86,7 +79,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
         "🇯🇵 日本 (Japan) 02 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe"
