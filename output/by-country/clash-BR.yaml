@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  server: 185.125.100.76
+  server: 103.251.167.112
   port: 8443
   udp: true
   type: vless
@@ -16,7 +16,7 @@ proxies:
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /trade/game/movies
+    path: /library/lang
     headers:
       Host: cdn8848.776676.xyz
 proxy-groups:
