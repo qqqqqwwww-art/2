@@ -4,28 +4,22 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe",
-      "server": "199.232.78.170",
+      "type": "vless",
+      "tag": "🇶🇦 卡塔尔 (Qatar) 01 - xiaohe",
+      "server": "34.18.222.19",
       "server_port": 443,
-      "password": "mitivpn",
+      "uuid": "bd82d5e7-4395-40e1-b34e-2974eb0c8555",
       "tls": {
         "enabled": true,
-        "server_name": "ssl.fastly.com",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
+        "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "@mehrosabiran",
-        "headers": {
-          "Host": "mitivpn---de--s---mitivpn-11.global.ssl.fastly.net"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ZRWl48Ahw4vlnPSTMkNs6xcCEDd9Qq4AsChUp-mg7A4",
+          "short_id": "9c8748aa3f7d4219"
         }
       }
     },
@@ -34,14 +28,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe"
+        "🇶🇦 卡塔尔 (Qatar) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe"
+        "🇶🇦 卡塔尔 (Qatar) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
