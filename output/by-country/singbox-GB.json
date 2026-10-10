@@ -4,26 +4,12 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "shadowsocks",
       "tag": "🇬🇧 英国 (United Kingdom) 01 - xiaohe",
-      "server": "172.67.132.19",
+      "server": "149.102.132.184",
       "server_port": 443,
-      "password": "Telegram_healer_config",
-      "tls": {
-        "enabled": true,
-        "server_name": "vre6r9qrbqi0t25tg.srtb0m3hdbwr2cjz8fjur.workers.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tr/bDodLFtTQwCZ6EX3ffMYJ06j9EjLse4d?ed=2560",
-        "headers": {
-          "Host": "vre6r9qrbqi0t25tg.srtb0m3hdbwr2cjz8fjur.workers.dev"
-        }
-      }
+      "method": "aes-256-gcm",
+      "password": "g5h5jleTRSyO3Rk4"
     },
     {
       "type": "shadowsocks",
@@ -36,22 +22,6 @@
     {
       "type": "shadowsocks",
       "tag": "🇬🇧 英国 (United Kingdom) 03 - xiaohe",
-      "server": "78.129.252.65",
-      "server_port": 17096,
-      "method": "aes-128-gcm",
-      "password": "7c55c080c3949e03f1a6a559a9851c68"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 英国 (United Kingdom) 04 - xiaohe",
-      "server": "146.70.61.18",
-      "server_port": 8080,
-      "method": "rc4-md5",
-      "password": "14fFPrbezE3HDZzsMOr6"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 英国 (United Kingdom) 05 - xiaohe",
       "server": "141.98.101.181",
       "server_port": 443,
       "method": "aes-128-gcm",
@@ -59,19 +29,46 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 英国 (United Kingdom) 06 - xiaohe",
-      "server": "149.102.149.207",
-      "server_port": 443,
-      "method": "aes-256-gcm",
-      "password": "LXchLsIwtCeUAUgu"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 英国 (United Kingdom) 07 - xiaohe",
+      "tag": "🇬🇧 英国 (United Kingdom) 04 - xiaohe",
       "server": "149.102.132.184",
       "server_port": 80,
       "method": "aes-256-gcm",
       "password": "g5h5jleTRSyO3Rk4"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 英国 (United Kingdom) 05 - xiaohe",
+      "server": "78.129.252.65",
+      "server_port": 17096,
+      "method": "aes-128-gcm",
+      "password": "7c55c080c3949e03f1a6a559a9851c68"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 英国 (United Kingdom) 06 - xiaohe",
+      "server": "146.70.23.32",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6"
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 英国 (United Kingdom) 07 - xiaohe",
+      "server": "186.190.211.188",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "tls": {
+        "enabled": true,
+        "server_name": "186.190.211.188",
+        "insecure": true,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "type": "vless",
@@ -85,7 +82,7 @@
         "server_name": "speed.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -95,16 +92,8 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 英国 (United Kingdom) 09 - xiaohe",
-      "server": "149.102.132.184",
-      "server_port": 443,
-      "method": "aes-256-gcm",
-      "password": "g5h5jleTRSyO3Rk4"
-    },
-    {
       "type": "vless",
-      "tag": "🇬🇧 英国 (United Kingdom) 10 - xiaohe",
+      "tag": "🇬🇧 英国 (United Kingdom) 09 - xiaohe",
       "server": "95.85.224.51",
       "server_port": 443,
       "uuid": "342ab7e4-5a89-0001-8809-304120d4aa83",
@@ -125,7 +114,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 英国 (United Kingdom) 11 - xiaohe",
+      "tag": "🇬🇧 英国 (United Kingdom) 10 - xiaohe",
       "server": "46.250.250.149",
       "server_port": 2053,
       "uuid": "b4caaf57-ad77-4948-a6f5-51b3513799bf",
@@ -134,7 +123,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -145,7 +134,55 @@
     },
     {
       "type": "vless",
+      "tag": "🇬🇧 英国 (United Kingdom) 11 - xiaohe",
+      "server": "31.76.115.238",
+      "server_port": 8443,
+      "uuid": "8ff3db5a-5f41-4f25-a8a4-7fbf00f1c319",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "ya.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ",
+          "short_id": "d2061bb1"
+        }
+      }
+    },
+    {
+      "type": "vmess",
       "tag": "🇬🇧 英国 (United Kingdom) 12 - xiaohe",
+      "server": "57.129.132.223",
+      "server_port": 80,
+      "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/vmess/",
+        "headers": {
+          "Host": "google.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇬🇧 英国 (United Kingdom) 13 - xiaohe",
+      "server": "gb.tronsg.com",
+      "server_port": 443,
+      "password": "Trojan@82164024",
+      "tls": {
+        "enabled": true,
+        "server_name": "gb.tronsg.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 英国 (United Kingdom) 14 - xiaohe",
       "server": "46.250.240.80",
       "server_port": 2053,
       "uuid": "948df76f-505d-4608-9c76-a933ee3ccc76",
@@ -161,38 +198,6 @@
           "public_key": "CYFeysLf--_IVhxQOCd3ZxLrAVWFFOkJzvIGHOVXN3E",
           "short_id": "4cc9dc65f7770115"
         }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 英国 (United Kingdom) 13 - xiaohe",
-      "server": "51.38.71.147",
-      "server_port": 8443,
-      "uuid": "c08f0056-7a6d-4931-813b-aaa3cdd00aed",
-      "tls": {
-        "enabled": true,
-        "server_name": "node-uk.connectsuite.org",
-        "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇬🇧 英国 (United Kingdom) 14 - xiaohe",
-      "server": "gb.tronsg.com",
-      "server_port": 443,
-      "password": "Trojan@82164024",
-      "tls": {
-        "enabled": true,
-        "server_name": "gb.tronsg.com",
-        "insecure": true
       }
     },
     {
