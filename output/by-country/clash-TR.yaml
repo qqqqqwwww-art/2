@@ -19,15 +19,20 @@ proxies:
   grpc-opts:
     grpc-service-name: GunService
 - name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
-  server: 206.1.102.81
-  port: 17915
+  server: tr2.h1cloud.net
+  port: 25375
   udp: true
   type: vless
-  uuid: 439628ee-ef8e-4a3e-ba0f-091b7376dcb8
+  uuid: ec572cf0-1337-4c51-b4ec-ff2f538c1f4c
   tls: true
-  servername: googol.wookshop.ir
-  skip-cert-verify: false
-  client-fingerprint: chrome
+  reality-opts:
+    public-key: PdiXtqIEtNpVRKgB1WCKnmIOC7yJ-VR4uUe1uYjcqXM
+    short-id: 8e2a0cd6de5dc50a
+  servername: www.bing.com
+  client-fingerprint: random
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 05195f917c82
 proxy-groups:
 - name: PROXIES
   type: select
