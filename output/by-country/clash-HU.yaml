@@ -18,7 +18,7 @@ proxies:
   servername: hu1.aiage.work
   client-fingerprint: chrome
 - name: 🇭🇺 匈牙利 (Hungary) 02 - xiaohe
-  server: hu1.aiage.work
+  server: 85.155.242.37
   port: 443
   udp: true
   type: vless
