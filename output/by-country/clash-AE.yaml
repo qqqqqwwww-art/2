@@ -16,21 +16,17 @@ proxies:
     public-key: uYU7UXkfNB-BEfjyrCUtRcN2JfFdlFWfMHCeX7bz4Qc
     short-id: e022bfea
   servername: addons.mozilla.org
-  client-fingerprint: chrome
+  client-fingerprint: randomized
 - name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
-  server: 57.129.130.57
-  port: 52014
+  server: 130.49.161.70
+  port: 443
   udp: true
-  type: vless
-  uuid: 091ea5fd-4e8d-4459-90af-e4d10179efff
-  tls: true
-  servername: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
+  type: hysteria2
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  sni: hy2.aspidnet.xyz
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristifp=chrome
-    headers:
-      Host: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
   server: 157.228.128.59
   port: 443
@@ -43,33 +39,23 @@ proxies:
     public-key: QnxkyscHouhaLDJHT47beyenVd4LHi62yfJIeRV01Ws
     short-id: 06e00e7c
   servername: addons.mozilla.org
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
-  server: 130.49.161.70
+  server: 31.59.210.32
   port: 443
   udp: true
-  type: hysteria2
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  sni: hy2.aspidnet.xyz
-  skip-cert-verify: false
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
-  server: 203.137.165.164
-  port: 57554
-  udp: true
   type: vless
-  uuid: 26545758-8050-4ca4-be26-54b38338983c
+  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
   tls: true
-  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 06 - xiaohe
+  reality-opts:
+    public-key: qvVoQPNyuM86jBvBqOL-Z9VO_C9jMi_ZH8bb4fotNWA
+    short-id: 7ec4374ffc6308fd
+  servername: www.yandex.ru
+  client-fingerprint: random
+  network: grpc
+  grpc-opts:
+    grpc-service-name: astracat
+- name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
   server: 31.59.210.37
   port: 443
   udp: true
@@ -80,12 +66,19 @@ proxies:
     public-key: 5k0dtOSzmshCubdYeKppsUdHU4i2ghaB9uSJSzGjHW4
     short-id: 6dbf4931096f9890
   servername: www.yandex.ru
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-service-name: astracat
+- name: 🇦🇪 阿联酋 (UAE) 06 - xiaohe
+  server: 200.181.82.91
+  port: 21737
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: 0dad9116-eb88-47b6-98dd-67c9ed43afa6
 - name: 🇦🇪 阿联酋 (UAE) 07 - xiaohe
-  server: 84.235.244.108
+  server: uae.unixzone.us
   port: 22573
   udp: true
   type: vless
@@ -96,6 +89,14 @@ proxies:
     headers:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 08 - xiaohe
+  server: 200.181.82.91
+  port: 28740
+  udp: true
+  type: trojan
+  password: 0dad9116-eb88-47b6-98dd-67c9ed43afa6
+  sni: www.baidu.com
+  skip-cert-verify: true
+- name: 🇦🇪 阿联酋 (UAE) 09 - xiaohe
   server: 45.59.120.217
   port: 443
   udp: true
@@ -120,6 +121,7 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 06 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 07 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 08 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -133,5 +135,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 06 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 07 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 08 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 09 - xiaohe
 rules:
 - MATCH,PROXIES
