@@ -13,7 +13,7 @@ proxies:
   sni: de1.dedushka.top
   skip-cert-verify: true
 - name: 🇷🇴 罗马尼亚 (Romania) 02 - xiaohe
-  server: it1.dedushka.top
+  server: 92.42.100.132
   port: 443
   udp: true
   type: trojan
