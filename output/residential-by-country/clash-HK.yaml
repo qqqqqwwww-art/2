@@ -4,13 +4,13 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇳 CN 01 - xiaohe
-  server: 120.48.133.162
-  port: 10086
+- name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe
+  server: hkgb707.ifastcdncache.com
+  port: 60852
   udp: true
   type: vmess
-  uuid: a01e5d56-464f-45b9-b600-164db4700162
-  alterId: 0
+  uuid: f8eca8df-a1a5-4918-a194-d34112a3673f
+  alterId: 2
   cipher: auto
   network: ws
   ws-opts:
@@ -20,12 +20,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇨🇳 CN 01 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇳 CN 01 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
