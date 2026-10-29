@@ -4,15 +4,23 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇮🇳 印度 (India) 01 - xiaohe",
-      "server": "139.84.132.62",
+      "server": "178.212.35.198",
       "server_port": 443,
-      "password": "Trojan@82164024",
+      "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
       "tls": {
         "enabled": true,
-        "server_name": "139.84.132.62",
-        "insecure": true
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q",
+          "short_id": "6bdc8320"
+        }
       }
     },
     {
@@ -23,7 +31,10 @@
       "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
       "transport": {
         "type": "ws",
-        "path": "/vless"
+        "path": "/vless",
+        "headers": {
+          "Host": "13.140.56.100"
+        }
       }
     },
     {
@@ -47,23 +58,15 @@
       }
     },
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇮🇳 印度 (India) 04 - xiaohe",
-      "server": "in.smrtai.top",
+      "server": "139.84.132.62",
       "server_port": 443,
-      "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
+      "password": "Trojan@82164024",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q",
-          "short_id": "6bdc8320"
-        }
+        "server_name": "139.84.132.62",
+        "insecure": true
       }
     },
     {
