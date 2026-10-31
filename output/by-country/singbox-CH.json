@@ -58,8 +58,20 @@
       }
     },
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇨🇭 瑞士 (Switzerland) 04 - xiaohe",
+      "server": "208.69.78.60",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.yourultimateprofessionalcareerhub.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 05 - xiaohe",
       "server": "208.69.78.217",
       "server_port": 2053,
       "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
@@ -79,7 +91,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🇨🇭 瑞士 (Switzerland) 05 - xiaohe",
+      "tag": "🇨🇭 瑞士 (Switzerland) 06 - xiaohe",
       "server": "208.69.78.208",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -91,13 +103,25 @@
     },
     {
       "type": "trojan",
-      "tag": "🇨🇭 瑞士 (Switzerland) 06 - xiaohe",
+      "tag": "🇨🇭 瑞士 (Switzerland) 07 - xiaohe",
       "server": "208.69.78.19",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
         "server_name": "www.yourultimateprofessionalcareerhub.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇭 瑞士 (Switzerland) 08 - xiaohe",
+      "server": "208.69.78.29",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "learn.yourultimateprofessionalcareerhub.com",
         "insecure": false
       }
     },
@@ -111,7 +135,9 @@
         "🇨🇭 瑞士 (Switzerland) 03 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 04 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 05 - xiaohe",
-        "🇨🇭 瑞士 (Switzerland) 06 - xiaohe"
+        "🇨🇭 瑞士 (Switzerland) 06 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 07 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 08 - xiaohe"
       ]
     },
     {
@@ -123,7 +149,9 @@
         "🇨🇭 瑞士 (Switzerland) 03 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 04 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 05 - xiaohe",
-        "🇨🇭 瑞士 (Switzerland) 06 - xiaohe"
+        "🇨🇭 瑞士 (Switzerland) 06 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 07 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 08 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
