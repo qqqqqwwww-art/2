@@ -19,20 +19,7 @@ proxies:
   grpc-opts:
     grpc-service-name: GunService
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  server: app-tw-113.statsmarket-wb.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: 07680ffb-0666-4836-b6ad-ec0de62bc38f
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: D_-aOnqEEAyi1i95e9mBjGpbT3kbTuQsWYBGW2s-iTg
-    short-id: 8998b032d5c33de9
-  servername: assets-tw-113.statsmarket-wb.com
-  client-fingerprint: randomized
-- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  server: 130.49.177.193
+  server: de-2.ffpn.pro
   port: 443
   udp: true
   type: vless
@@ -44,7 +31,7 @@ proxies:
     short-id: 681fc2dd643bc2f3
   servername: de-2.ffpn.pro
   client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
+- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   server: 185.147.27.164
   port: 8443
   udp: true
@@ -55,6 +42,19 @@ proxies:
   servername: ekb.eg
   skip-cert-verify: true
   client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
+  server: 157.22.240.20
+  port: 443
+  udp: true
+  type: vless
+  uuid: f28ce4eb-62cd-45f5-b3b3-be1c1a95e335
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: T1BWBw3lq9G1LiQ7eQSPfdNQic7bUMEbdFNJBewAwB8
+    short-id: 6ad3c0f1e9b2478a
+  servername: yandex.ru
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
