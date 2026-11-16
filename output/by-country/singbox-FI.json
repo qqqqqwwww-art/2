@@ -44,27 +44,6 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 04 - xiaohe",
-      "server": "sizipe.hagrid-connected.com",
-      "server_port": 443,
-      "uuid": "beda6bd0-7ce4-477a-91f1-860d018dbfcb",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "sizipe.hagrid-connected.com",
-        "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 05 - xiaohe",
       "server": "104.171.133.213",
       "server_port": 443,
       "uuid": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
@@ -85,7 +64,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 06 - xiaohe",
+      "tag": "🇫🇮 芬兰 (Finland) 05 - xiaohe",
       "server": "129.101.100.219",
       "server_port": 443,
       "uuid": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
@@ -113,8 +92,7 @@
         "🇫🇮 芬兰 (Finland) 02 - xiaohe",
         "🇫🇮 芬兰 (Finland) 03 - xiaohe",
         "🇫🇮 芬兰 (Finland) 04 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 05 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 06 - xiaohe"
+        "🇫🇮 芬兰 (Finland) 05 - xiaohe"
       ]
     },
     {
@@ -125,8 +103,7 @@
         "🇫🇮 芬兰 (Finland) 02 - xiaohe",
         "🇫🇮 芬兰 (Finland) 03 - xiaohe",
         "🇫🇮 芬兰 (Finland) 04 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 05 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 06 - xiaohe"
+        "🇫🇮 芬兰 (Finland) 05 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

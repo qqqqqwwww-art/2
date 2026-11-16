@@ -5,22 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 01 - xiaohe",
-      "server": "20.215.66.17",
-      "server_port": 2083,
-      "uuid": "52a5a29f-c162-411a-8a37-a3f11b0dc537",
+      "tag": "🇦🇷 阿根廷 (Argentina) 01 - xiaohe",
+      "server": "186.122.177.79",
+      "server_port": 443,
+      "uuid": "8197b9b9-8945-460f-99c9-325ef8a8a7c3",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "ar1.gofizz.in",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "WbgtxLlo2gmTzB4Wzxgh_U7G97d4ENTS10fYIoujET4",
-          "short_id": "0123456789abcdef"
+          "public_key": "pBEW9XYZQsXxjgt44pCQcxoEOe-B1CdxaTdTnL2QhAA",
+          "short_id": "a5d67406"
         }
       }
     },
@@ -29,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇱 波兰 (Poland) 01 - xiaohe"
+        "🇦🇷 阿根廷 (Argentina) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇱 波兰 (Poland) 01 - xiaohe"
+        "🇦🇷 阿根廷 (Argentina) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
