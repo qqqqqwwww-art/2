@@ -4,25 +4,22 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.18.10.66",
-      "server_port": 443,
-      "uuid": "2874e26b-45e3-4d12-9e01-3f5a1c6a7105",
+      "server": "104.21.91.53",
+      "server_port": 8443,
+      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "dietary-forms-begun-orientation.trycloudflare.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "v2ray1.dozapp.xyz",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/d9fb7b4f14c1",
+        "path": "/lMnsZUN4/",
         "headers": {
-          "Host": "dietary-forms-begun-orientation.trycloudflare.com"
+          "Host": "v2ray1.dozapp.xyz"
         }
       }
     },
